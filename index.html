@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Studio Kelompok 3</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/logos/Favicon_1.png"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <!-- LOGO -->
+      <div class="logo">
+        <img src="./assets/logos/Logo.png" alt="Logo Studio Kelompok 3" />
+      </div>
+      <!-- DATE -->
+      <div class="date" id="date"></div>
+
+      <!-- TIME -->
+      <div class="time" id="time"></div>
+
+      <!-- LOCATION -->
+      <div class="location" id="location"></div>
+
+      <!-- NAVIGATION MENU -->
+      <ul class="nav-links">
+        <!-- USING CHECKBOX HACK -->
+        <input type="checkbox" id="checkbox_toggle" />
+        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#space">Space</a></li>
+          <li><a href="#rent">Rent</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </div>
+      </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-image">
+        <img
+          src="./assets/logos/HEADER-BG2.png"
+          alt="White liminal space studio at studio kelompok 3"
+        />
+        <div class="hero-content">
+          <marquee
+            direction="right"
+            behavior="scroll"
+            scrollamount="10"
+            scrolldelay="50"
+          >
+            Photo and video for studio rent / Photo and video for studio rent /
+            Photo and video for studio rent</marquee
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+      <div class="services-top">
+        <h1>Services.</h1>
+        <img src="./assets/icons/services.png" alt="Rectangular line art" />
+        <div class="services-content">
+          <p>
+            Studio Kelompok 3 is a professional photography studio space that
+            offers a variety of services to meet your personal and business
+            needs. Whether you're looking for product photography, company
+            profiles, or something else entirely, our space could help you
+            create high-quality photos that will make a lasting impression.
+            Contact us today to learn more about our services and to book your
+            studio rental.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SPACE -->
+    <section class="space" id="space">
+      <div class="space-content"><h1>Space.</h1></div>
+      <div class="container">
+        <div class="image-container">
+          <div class="image">
+            <img
+              src="assets/images/imagesproject-7.jpg"
+              alt="Studio floorplan blueprint"
+            />
+          </div>
+          <div class="image">
+            <img src="assets/images/imagesproject-1.jpg" alt="Limbo studio" />
+          </div>
+          <div class="image">
+            <img
+              src="assets/images/imagesproject-3.jpg"
+              alt="Natural light studio"
+            />
+          </div>
+          <div class="image">
+            <img
+              src="assets/images/imagesproject-4.jpg"
+              alt="Fuse box studio"
+            />
+          </div>
+          <div class="image">
+            <img
+              src="assets/images/imagesproject-5.jpg"
+              alt="White liminal space studio at Bekasi"
+            />
+          </div>
+          <div class="image">
+            <img
+              src="assets/images/imagesproject-6.jpg"
+              alt="Interior studio room with large window"
+            />
+          </div>
+          <div class="image">
+            <img
+              src="assets/images/imagesproject-2.jpg"
+              alt="Limbo white background studio"
+            />
+          </div>
+          <div class="image">
+            <img
+              src="assets/images/imagesproject-8.jpg"
+              alt="White wooden trolley organizer in studio"
+            />
+          </div>
+        </div>
+        <div class="popup-image">
+          <span class="close-button">&times;</span>
+          <img class="popup-img" />
+          <span class="prev-button">&#8249;</span>
+          <span class="next-button">&#8250;</span>
+        </div>
+      </div>
+    </section>
+
+    <!--Space Features-->
+    <section class="features">
+      <h1>Space features.</h1>
+      <div class="container">
+        <main class="grid">
+          <article>
+            <img src="assets/icons/Icons-03.png" alt="Cyclorama" />
+            <div class="content">
+              <p>Cyclorama</p>
+            </div>
+          </article>
+          <article>
+            <img src="assets/icons/Icons-04.png" alt="Natural light" />
+            <div class="content">
+              <p>
+                Natural <br />
+                light
+              </p>
+            </div>
+          </article>
+          <article>
+            <img src="assets/icons/Icons-05.png" alt="Makeup & changing room" />
+            <div class="content">
+              <p>
+                Makeup <br />
+                & changing room
+              </p>
+            </div>
+          </article>
+          <article>
+            <img src="assets/icons/Icons-06.png" alt="Air Conditioner" />
+            <div class="content">
+              <p>
+                Air <br />
+                Conditioner
+              </p>
+            </div>
+          </article>
+          <article>
+            <img src="assets/icons/Icons-07.png" alt="Tools & equipment" />
+            <div class="content">
+              <p>
+                Tools <br />
+                & Equipment
+              </p>
+            </div>
+          </article>
+          <article>
+            <img src="assets/icons/Icons-08.png" alt="Props making service" />
+            <div class="content">
+              <p>
+                Props making <br />
+                service
+              </p>
+            </div>
+          </article>
+          <article>
+            <img src="assets/icons/Icons-09.png" alt="Parking space" />
+            <div class="content">
+              <p>
+                Parking <br />
+                space
+              </p>
+            </div>
+          </article>
+          <article>
+            <img src="assets/icons/Icons-10.png" alt="Greenery space" />
+            <div class="content">
+              <p>
+                Greenery <br />
+                space
+              </p>
+            </div>
+          </article>
+        </main>
+      </div>
+      <div class="features-content">
+        <p>
+          At Studio Kelompok 3, we believe that great photos can make a big
+          difference. Whether you're starting a new business or you're looking
+          to improve your existing brand, we can help you create photos that
+          will help you achieve your goals. Our spacious studio space is
+          equipped with a wide cyclorama/limbo area, equipment & lighting,
+          dressing & make-up area, and a variety of set-ups to use in your
+          shoot. Perfect for everything from product photography to company
+          profiles. contact us today to learn more about our services.
+        </p>
+      </div>
+    </section>
+
+    <!-- RENT -->
+    <section class="rent" id="rent">
+      <div class="rent-content">
+        <h1>Rent.</h1>
+      </div>
+      <div class="container">
+        <div class="border-1">
+          <div class="border-content1">
+            <h2>S</h2>
+            <a href="./assets/terms1.html">
+              <img src="./assets/icons/Icons-11.png" alt="Rent now button" />
+            </a>
+          </div>
+          <div class="photo-only">
+            <em><p>(Photo only)</p></em>
+          </div>
+          <div class="table1">
+            <table style="width: 100%">
+              <tr>
+                <td>
+                  <em><strong>Package</strong></em>
+                </td>
+                <td>
+                  Studio Usage <br />
+                  2x studio Air Condition <br />
+                  Hair & Makeup room <br />
+                  Max. 10 pax allowed in the building
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <em><strong>Rate</strong></em> <br />
+                  <span style="font-style: italic; color: orangered"
+                    >(early bird)</span
+                  >
+                </td>
+                <td>
+                  <del>IDR 3,200,000</del> <br />
+                  <span style="color: orangered">IDR 1,600,000</span>
+                  / 8 HOURS
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <em><strong>Overtime</strong></em>
+                </td>
+                <td>IDR 300,000 / HOUR</td>
+              </tr>
+              <tr>
+                <td>
+                  <em><strong>Tools</strong></em>
+                </td>
+                <td>Not-Included</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="border-2">
+          <div class="border-content2">
+            <h2>M</h2>
+            <a href="./assets/terms2.html">
+              <img src="./assets/icons/Icons-11.png" alt="Rent now button" />
+            </a>
+          </div>
+          <div class="photo-only">
+            <em><p>(Photo only)</p></em>
+          </div>
+          <div class="table2">
+            <table style="width: 100%">
+              <tr>
+                <td>
+                  <em><strong>Package</strong></em>
+                </td>
+                <td>
+                  Studio Usage <br />
+                  3x studio Air Condition <br />
+                  Hair & Makeup room <br />
+                  Max. 15 pax allowed in the building
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <em><strong>Rate</strong></em
+                  ><br />
+                  <span style="font-style: italic; color: orangered"
+                    >(early bird)</span
+                  >
+                </td>
+                <td>
+                  <del>IDR 4,400,000</del> <br />
+                  <span style="color: orangered"> IDR 2,000,000</span> / 8 HOURS
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <em><strong>Overtime</strong></em>
+                </td>
+                <td>IDR 350,000 / HOUR</td>
+              </tr>
+              <tr>
+                <td>
+                  <em><strong>Tools</strong></em>
+                </td>
+                <td>Included</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="border-3">
+          <div class="border-content3">
+            <h2>L</h2>
+            <a href="./assets/terms3.html">
+              <img src="./assets/icons/Icons-11.png" alt="Rent now button" />
+            </a>
+          </div>
+          <div class="photo-only">
+            <em><p>(Photo & Video)</p></em>
+          </div>
+          <div class="table3">
+            <table style="width: 100%">
+              <tr>
+                <td>
+                  <em><strong>Package</strong></em>
+                </td>
+                <td>
+                  Studio Usage <br />
+                  5x studio Air Condition <br />
+                  Hair & Makeup room <br />
+                  Max. 20 pax allowed in the building <br />
+                  Max 3000 watt of electricity
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <em><strong>Rate</strong></em
+                  ><br />
+                  <span style="font-style: italic; color: orangered"
+                    >(early bird)</span
+                  >
+                </td>
+                <td>
+                  <del>IDR 4,200,000 </del> <br /><span
+                    style="color: orangered"
+                  >
+                    IDR 2,000,000</span
+                  >
+                  / 6 HOURS <br />
+                  <del>IDR 7,500,000</del> <br />
+                  <span style="color: orangered"> IDR 3,500,000</span> / 12
+                  HOURS
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <em><strong>Overtime</strong></em>
+                </td>
+                <td>IDR 500,000 / HOUR</td>
+              </tr>
+              <tr>
+                <td>
+                  <em><strong>Tools</strong></em>
+                </td>
+                <td>Included</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOOLS AND EQUIPMENT -->
+    <section class="tools">
+      <div class="top">
+        <h1>Tools & equipments.</h1>
+        <img src="./assets/icons/Icons-12.png" alt="Lamp line art" />
+      </div>
+      <div class="tables">
+        <table style="width: 100%">
+          <tr>
+            <td><strong>3x</strong></td>
+            <td>Godox Lighting Studio Flash QT600iii</td>
+            <td><strong>9x</strong></td>
+            <td>Sand Bag</td>
+          </tr>
+          <tr>
+            <td><strong>3x</strong></td>
+            <td>C - Stan</td>
+            <td><strong>2x</strong></td>
+            <td>Preview/working table (mobile)</td>
+          </tr>
+          <tr>
+            <td><strong>1x</strong></td>
+            <td>Phottix 60 x 80 softbox</td>
+            <td><strong>2x</strong></td>
+            <td>Make up table (mobile)</td>
+          </tr>
+          <tr>
+            <td><strong>1x</strong></td>
+            <td>Phottix Octa 105</td>
+            <td><strong>1x</strong></td>
+            <td>Clothes hanger</td>
+          </tr>
+          <tr>
+            <td><strong>2x</strong></td>
+            <td>Photix Umbrella White 40°</td>
+            <td><strong>2x</strong></td>
+            <td>Apple box family</td>
+          </tr>
+          <tr>
+            <td><strong>1x</strong></td>
+            <td>Beauty Dish</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <!-- contact-->
+    <section class="contact" id="contact">
+      <marquee
+        direction="right"
+        behavior="scroll"
+        scrollamount="10"
+        scrolldelay="50"
+      >
+        Photo and video for studio rent / Photo and video for studio rent /
+        Photo and video for studio rent</marquee
+      >
+
+      <div class="contact-content">
+        <div class="top">
+          Studio Kelompok 3
+          <img src="./assets/icons/Icons-14.png" alt="Telephone line art" />
+        </div>
+        <br />
+        <br />
+        Studio Kelompok 3 HQ
+        <br />
+        Pondok Cina, Beji
+        <br />
+        Kota Depok, Jawa Barat 17431
+
+        <div class="contact-links">
+          <span>Email:</span>
+          <a href="mailto:studiokelompok3@gmail.com"
+            >studiokelompok3@gmail.com</a
+          >
+          <br />
+          <span>Phone:</span>
+          <a href="https://wa.me/62815866339166">+62-815-8663-39166</a>
+          <br />
+          <span>Instagram:</span>
+          <a href="https://www.instagram.com/studiokelompok3/"
+            >@studiokelompok3</a
+          >
+        </div>
+        <div class="row">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.998186254015!2d106.83061947475188!3d-6.36911459362106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ed01b68548ad%3A0x89aea3afc2b2e77d!2sUniversitas%20Gunadarma%20Kampus%20D!5e1!3m2!1sen!2sid!4v1704263956250!5m2!1sen!2sid"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="map"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      studio di Kelompok 3 2023 by AHR (Anggitho, Hilmi, Ryan)
+    </div>
+
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
